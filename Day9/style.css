@@ -15,6 +15,7 @@ body{
     float: left;
     color: white;
     font-size: 50px;
+    transition: transform .2s;
     text-align: center;
 }
 .white{
@@ -25,4 +26,11 @@ body{
     color: black;
     font-size: 50px;
     text-align: center;
+    transition: transform .2s;
+}
+.black:hover{
+    transform: scale(1.5);
+}
+.white:hover{
+    transform: scale(1.5);
 }
