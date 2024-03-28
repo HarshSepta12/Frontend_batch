@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color: white;
+}
+.nav{
+    background-color: rgb(209, 83, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .items{
+    padding: 20px;
+    /* position: relative; */
+}
+.right .items:hover{
+    background-color: rgb(233, 0, 229);
+}
+#dp{
+    position: relative;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    height: 180px;
+    width: 100px;
+    background-color: grey;
+}
+.dropdown .dropdown_items{
+    padding: 15px;
+}
+
+#dp:hover .dropdown{
+    display: block;
+    position: absolute;
+    
+    
+}
