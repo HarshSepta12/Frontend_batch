@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+.item{
+    padding: 10px;
+}
+#dp .drop_down{
+    position: relative;
+    display: none;
+    list-style: none;
+}
+#dp .drop_down .itm{
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+}
+#dp:hover .drop_down{
+    display: block;
+    position: absolute;
+    top: 2.8rem;
+    left: 4.5rem;
+}
+
