@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            width: 500px;
+            height: 500px;
+            /* background-color: purple; */
+            grid-template-columns: auto auto auto auto auto auto ;
+            grid-template-rows: auto auto auto auto auto ;
+            gap: 10px;
+        }
+
+        .container .items {
+            /* width: 100px;
+            height: 100px; */
+            background-color: red;
+            border: 2px solid black;
+            text-align: center;
+            font-size: 2rem;
+            gap: 10px;
+        }
+        .container .items:nth-child(8){
+            /* grid-row-start:1;
+            grid-column-start:2;
+            grid-row-end: 4 span;
+            grid-column-end: 4 span; */
+            background-color: bisque;
+            grid-area: 1/2/5/6;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+        <div class="items">7</div>
+        <div class="items">8</div>
+        <div class="items">9</div>
+        <div class="items">10</div>
+        <div class="items">11</div>
+        <div class="items">12</div>
+        <div class="items">13</div>
+        <div class="items">14</div>
+        <div class="items">15</div>
+    </div>
+</body>
+
+</html>
