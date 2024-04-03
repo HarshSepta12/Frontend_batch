@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .container{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            position: relative;
+            /* animation-name: superman;
+            animation-duration: 3s;
+            animation-iteration-count: 5s;
+            position: relative;
+            transition: position 3s; */
+            animation-name: spiderman;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            transition: position 3s;
+        }
+        @keyframes superman{
+            to{
+                
+                width: 100px;
+                height: 100px;
+                background-color: blueviolet;
+            }
+            from{
+                width: 300px;
+                height: 200px;
+                border: 2px solid blue;
+                background-color: yellow;
+                transform: translate(50px,100px);
+                left: 200px;
+                
+            }
+        }
+
+        @keyframes spiderman{
+            0%{
+                left: 0;
+                top: 0;
+                background-color: #eed23e;
+            }
+            25%{
+                left: 300px;
+                top: 0px;
+                background-color: #ff23de;
+            }
+            50%{
+                left: 300px;
+                top: 350px;
+                background-color: #e98408;
+            }
+            75%{
+                top: 350px;
+                left: 0px;
+                background-color: red;
+            }
+            100%{
+                top: 0;
+                left: 0;
+                background-color: #ffee34;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html>
