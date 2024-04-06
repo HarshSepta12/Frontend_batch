@@ -1,0 +1,297 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f3f5;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid grey;
+}
+.header .nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 7px;
+    gap: 5px;
+    margin-top: -7px;
+}
+.header .nav img{
+    width: 30px;
+    height: 30px;
+}
+.header .nav input{
+    border-radius: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(244, 237, 237, 0.772)
+}
+.header .nav .center{
+    display: flex;
+    gap: 40px;
+    margin-left: 120px;
+    align-items: center;
+
+}
+.header .nav .right{
+    margin-left: 300px;
+}
+
+/* sidebar  */
+
+.sidebar{
+    width: 20%;
+    height: 700px;
+    background-color: #fff;
+    border: 1px solid #91918c;
+    position: relative;
+    /* margin-top: 3.7rem; */
+    top: 3.7rem;
+}
+.sidebar .home_create{
+    display: flex;
+    justify-content: space-between;
+}
+#home{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#create{
+    color: blue;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.sidebar .img_des{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.sidebar .img_des img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.sidebar .img_des span{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.material-symbols-outlined{
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 90px;
+}
+.all{
+    margin-left: 15px;
+}
+#more {
+    margin-left: 80px;
+    margin-top: 14px;
+}
+.side_footer{
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 80%;
+}
+.main{
+    width: 45%;
+    height: auto;
+    /* background-color: #fff; */
+    padding: 10px;
+    position: relative;
+    top: -40rem;
+    left: 19rem;
+    border: 1px solid #91918c;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.main_first{
+    display: flex;
+    justify-content: space-between;
+}
+#see_color{
+    color: blue;
+}
+.main_second{
+    display: flex;
+    gap: 70px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.main_second img{
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+}
+.main_second .short {
+    width: 30px;
+    height: 30px;
+    border: 2px solid blue;
+    border-radius: 100%;
+    margin-left: -160px;
+    margin-top: 16px;
+}
+.input{
+    background-color: #ffffff;
+    height: 100px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border: 1px solid #91918c;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 18px;
+}
+.input img{
+    width: 50px;
+    height: 50px;
+    margin-top: -2rem;
+}
+.input input{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: -2rem;
+}
+ .niche{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -2rem;
+    margin-left: -22px;
+}
+.live {
+    margin-left: -38px;
+    margin-top: 10px;
+}
+.upper_post{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.upper_post img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.upper_post .u_name{
+    margin-left: 8px;
+    margin-top: 9px;
+}
+.upper_post .dots{
+    margin-left:27.25rem;
+}
+.images img{
+    width: 550px;
+    height: 300px;
+}
+.likes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.align{
+    margin-left: -74px;
+    margin-top: 8px;
+}
+
+
+/* right bar  */
+.right_niche{
+    width: 30%;
+    height: 700px;
+    position: absolute;
+    left: 55rem;
+    top: 3.8rem;
+    background-color: white;
+    border: 1px solid #91918c;
+}
+.right_niche h4{
+    padding: 10PX;
+}
+.right_niche img{
+    padding: 10px;
+    width: 100%;
+    /* margin-left: 1rem; */
+    height: 200px;
+    border-radius: 10px;
+}
+.right_niche span{
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+    font-size: 36px;
+    color: rgb(223, 221, 221);
+}
+.right_niche #h4 {
+    position: absolute;
+    top: 3.2rem;
+    left: 4rem;
+    color: rgb(243, 243, 243);
+}
+.right_niche p{
+        position: absolute;
+        top: 5rem;
+        color: white;
+        width: 60%;
+        left: 2rem;
+}
+.right_niche button{
+    position: absolute;
+    top: 10rem;
+    left: 1rem;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.right_niche .contact{
+    position: absolute;
+    top: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+.right_niche p {
+    color: rgb(0, 0, 0);
+    margin-top: -19px;
+    font-weight: 900;
+}
+.right_niche .contactt {
+    margin-left: 315px;
+    font-weight: 900;
+    color: black;
+}
+.right_niche .suggestion{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 55px;
+    margin-left: 1rem;
+}
+.right_niche .users{
+    display: flex;
+    align-items: center;
+    
+}
+.right_niche .users img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.right_niche .users h3{
+    color: black;
+    /* margin-top: 100px; */
+}
