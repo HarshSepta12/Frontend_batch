@@ -20,7 +20,7 @@ const binarySearch = (arr, target) => {
 };
 // main function
 const arr = [10, 20, 30, 500, 600, 750, 1200, 1900, 2400, 5000];
-let target = 7500;
+let target = 750;
 const result = binarySearch(arr,target);
 if(result == -1){
   console.log("Element not found")
