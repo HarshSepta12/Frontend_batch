@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: black;
+            color: #fff;
+        }
+        div{
+            text-align: center;
+        }
+        img{
+            border: 2px solid yellow;
+            border-radius: 10px;
+        }
+        button{
+            padding: 10px;
+            border: none;
+            background: #888d8e;
+        }
+    </style>
+</head>
+<body>
+    
+  <div>
+    <h1 class="text">Demo 1</h1>
+      <img src="https://cdn.pixabay.com/photo/2023/05/29/00/24/blue-tit-8024809_1280.jpg"
+       width="300px" 
+       height="500px" 
+       alt=""
+       onmouseover="ChangeImg()" 
+       onmouseleave="originalImage()">
+
+      <button onclick="changeBgColor()">ChangeBg</button>
+      <button onclick="changelight()">ChangeLight</button>
+      <button onclick="next1Img()">NextImage</button>
+  
+  </div>
+    <!-- <script src="index.js"></script> -->
+    <script src="event.js"></script>
+  
+
+</body>
+</html>
