@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator1.css">
+</head>
+<body>
+    <input type="number" name="first" id="first" step="any" placeholder="Enter first number">
+
+    <select name="" id="ope">
+        <option value="/">/</option>
+        <option value="*">*</option>
+        <option value="%">%</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+    </select>
+    
+    <input type="number" name="second" id="second" step="any" placeholder="Enter second">
+    <br><br>
+    <button id="btn" onclick="calculator()">Calculate</button>
+    <input type="text" id="res" placeholder="Your result is here" readonly>
+
+    <script>
+        function calculator(){
+            let opr1 = document.getElementById('first').value;
+            let opr2 = document.getElementById('second').value;
+            let ope = document.getElementById('ope').value;
+           if(ope == '/'){
+            var res = parseInt(opr1) / parseInt(opr2);
+           }
+           if(ope == '*'){
+            var res = parseInt(opr1) * parseInt(opr2);
+           }
+           if(ope == '%'){
+            var res = parseInt(opr1) % parseInt(opr2);
+           }
+           if(ope == '+'){
+            var res = parseInt(opr1) + parseInt(opr2);
+           }
+           if(ope == '-'){
+            var res = parseInt(opr1) - parseInt(opr2);
+           }
+           document.getElementById('res').value = res;
+        }
+    </script>
+</body>
+</html>
