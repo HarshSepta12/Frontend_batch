@@ -112,14 +112,16 @@ const optD4 = document.querySelector('#d4');
 
 // const option1 = document.querySelector('#ope1');
 const res = document.querySelector('#ans');
-
 // Question 1 loop
+let score = 0;
 for(let i = 0; i<Quiz.length; i++){
     for(let j = 0 ; j<Quiz[0].option.length; j++){
         if(Quiz[0].option[j].ans == true){
             optA.addEventListener('click', ()=>{
                 document.querySelector('#res').innerHTML = `You Select Right Answer (${Quiz[0].option[j].first})`
-                optA.style.backgroundColor = 'rgb(75, 177, 75)'
+                optA.style.backgroundColor = 'rgb(75, 177, 75)'; 
+                
+                score++;
             })
         }else{
             optB.addEventListener('click', ()=>{
