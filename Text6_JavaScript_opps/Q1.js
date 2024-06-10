@@ -39,15 +39,15 @@ class Book {
 }
 
 // Example usage:
-let book1 = new Book(4, "World War: Whole World", "Martin", "Facebook", 60, 4,2);
+let book1 = new Book(12, "World War: Whole World", "Martin", "Facebook", 60, 14,9);
 // book1.displayInfo();
 
 // book1.issueBook();
-// book1.issueBook();
+book1.issueBook();
 book1.displayInfo();
 
 book1.returnBook();
-// book1.displayInfo();
+book1.displayInfo();
 
 // book1.issueBook();
 // book1.displayInfo();
