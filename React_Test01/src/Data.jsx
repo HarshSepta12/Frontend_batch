@@ -1,16 +1,6 @@
 import React from 'react'
 
 const Data = (props) => {
-    const MobileData = [
-        {
-            id: props.id,
-            MobileName: props.MobileName,
-            Model: props.modal,
-            launchDate: props.launchDate
-        },
-       
-    ]
-  
     return (
         <div>
             {MobileData.map((data) => (
@@ -33,3 +23,4 @@ const Data = (props) => {
 }
 
 export default Data
+
