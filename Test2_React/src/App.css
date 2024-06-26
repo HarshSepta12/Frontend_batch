@@ -1,0 +1,17 @@
+.bgc{
+  background-color: rgb(212, 211, 198);
+}
+::-webkit-scrollbar{
+  scroll-behavior: smooth;
+}
+
+#contact{
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  
+}
+#contact hr{
+  width: 100%;
+}
+
